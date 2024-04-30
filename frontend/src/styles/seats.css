@@ -1,0 +1,57 @@
+.seats{
+    width:100%;
+    margin:20px 100px;
+}
+.row{
+display:flex;
+}
+.row div{
+    display:flex;
+    width:30px;
+    height: 40px;
+    border:1px solid black;
+    margin:10px;
+    padding:10px;
+    color: green;
+
+}
+.row div:hover{
+    -webkit-box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+    -moz-box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+    box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+   color: red;
+}
+.screen{
+    
+    margin:0 40% 10px 40%;
+
+
+}
+.screen button{
+    background-color: rgb(108, 141, 239);
+    text-align: center;
+    height: 50px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.paybtn button:hover{
+    -webkit-box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+    -moz-box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+    box-shadow: 20px 12px 40px -12px rgba(0,0,0,0.72);
+
+}
+.paybtn{
+    width:100%;
+
+}
+.paybtn button{
+    background-color: rgb(247, 121, 121);
+    text-align: center;
+    width:200px;
+    height: 50px;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 10px;
+    margin:20px 10px 20px 85%;
+}
